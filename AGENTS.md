@@ -1,0 +1,3 @@
+# Project instructions
+
+Build the four-role Python engineering workflow described in `docs/`. The application owns permissions, state transitions, retries, cancellation, evidence and cleanup; CrewAI supplies structured reasoning. Never execute generated source on the host. Use only the fixed Docker pytest/Ruff profiles, with no network or secrets. Keep model integrations real and test doubles confined to tests. Run backend tests/Ruff/mypy and frontend tests/lint/typecheck/build after relevant changes. Record unverified integrations in `docs/verification.md`. Do not push or deploy without explicit authorization.
